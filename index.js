@@ -7,9 +7,9 @@ DoubleSide, AmbientLight, SpotLight } from 'https://cdn.skypack.dev/three@0.137'
 import { RGBELoader }  from 'https://cdn.skypack.dev/three-stdlib@2.8.5/loaders/RGBELoader';
 import { OrbitControls }  from 'https://cdn.skypack.dev/three-stdlib@2.8.5/controls/OrbitControls';
 import { mergeBufferGeometries } from 'https://cdn.skypack.dev/three-stdlib@2.8.5/utils/BufferGeometryUtils';
-import { SimplexNoise } from 'https://cdn.skypack.dev/simplex-noise';
+import { SimplexNoise } from 'https://cdn.skypack.dev/simplex-noise@3.0.1';
 import { GLTFLoader }  from 'https://cdn.skypack.dev/three-stdlib@2.8.5/loaders/GLTFLoader';
-
+ 
 
 const scene = new Scene();
 scene.background = new Color("#E5C7BB");
